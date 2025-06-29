@@ -1,0 +1,32 @@
+div {margin: auto;} 
+
+.poste {
+  width: 20px;
+  height: 150px;
+  background-color: black;
+}
+
+.semaforo {
+  width: 140px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.luz {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  background-color: yellow;
+}
+
+.roja{ background-color: red;}
+.amarilla{ background-color: yellow;}
+.verde{ background-color: green;}
+
+.rencendida{filter: drop-shadow(0 0 2em #ff8364aa);}
+.aencendida{filter: drop-shadow(0 0 2em #e6f516);}
+.vencendida{filter: drop-shadow(0 0 2em #58ec02f1);}
